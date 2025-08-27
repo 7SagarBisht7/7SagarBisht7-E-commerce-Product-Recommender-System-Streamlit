@@ -24,8 +24,8 @@ This interactive web app is built with **Streamlit** and uses **Machine Learning
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/streamlit-recommender-app.git
-   cd streamlit-recommender-app
+   git clone https://github.com/7SagarBisht7/E-commerce-Product-Recommender-System-Streamlit.git
+   cd E-commerce-Product-Recommender-System-Streamlit
    ```
 
 2. Create a virtual environment & activate it:
@@ -51,8 +51,7 @@ This interactive web app is built with **Streamlit** and uses **Machine Learning
 ```
 streamlit_recommender_app/
 │── app.py                # Streamlit app entry point
-│── recommender.py        # ML model & functions
-│── data/                 # Dataset (if any)
+│── data/                 # Dataset 
 │── requirements.txt      # Project dependencies
 │── README.md             # Documentation
 ```
