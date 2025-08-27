@@ -280,7 +280,7 @@ else:
             with cols[0]:
                 img = row.get("ImageURL", "")
                 if isinstance(img, str) and img.strip():
-                    st.image(img, use_column_width=True)
+                    st.image(img, use_container_width=True)
             with cols[1]:
                 st.markdown(f"**{row.get('Name','(no name)')}**")
                 st.write(f"Brand: {row.get('Brand','-')}  •  ⭐ {row.get('Rating',0)}  •  {int(row.get('ReviewCount',0))} reviews")
